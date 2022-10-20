@@ -7,9 +7,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "lint": "eslint ../backend",
-    "lint-fix": "eslint ../backend --fix --color",
-    "pre-commit": "lint-staged",
-    "prepare": "husky install"
+    "lint-fix": "eslint ../backend --fix --color"
   },
   "keywords": [],
   "author": "",
