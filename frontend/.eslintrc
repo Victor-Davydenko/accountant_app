@@ -1,16 +1,26 @@
 {
   "env": {
     "browser": true,
-    "node": true,
-    "es6": true
+    "es6": true,
+    "node": true
   },
-  "extends": ["airbnb/base"],
+  "extends": ["airbnb/base", "react-app", "react-app/jest"],
   "rules": {
-    "import/extensions": [0, { "js": "always" }],
-    "class-methods-use-this": "off",
+    "linebreak-style": 0,
+    "arrow-body-style": "off",
+    "indent": [2,"tab"],
+    "max-len": ["error", 150, {"ignoreUrls": true}],
+    "no-duplicate-imports": "error",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "no-tabs": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "no-underscore-dangle": "off",
+    "no-return-await": "off",
+    "no-shadow": "off",
     "consistent-return": "off",
-    "max-len": ["error", {"code": 120}],
-    "no-console": "off",
-    "no-param-reassign": "off"
+    "no-lonely-if": "off",
+    "no-param-reassign": "off",
+    "brace-style": "off"
   }
 }
